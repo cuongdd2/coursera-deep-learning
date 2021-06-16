@@ -1,0 +1,21 @@
+- Sigmoid
+  - 1 / (1 + e^-z)
+  - derivative: a (1 - a) where a = sigmoid 
+  - from 0 to 1 
+  - for output layer, 
+  - only 0 or 1 choice, binary choices, sigmoid may be a good choice  
+- tanh
+  - (e^z - e^-z)/(e^z + e^-z)
+  - derivative: 1 - a^2 where a = tanh  
+  -  from -1 to 1 
+  -  mean = 0
+- ReLU
+  - max(0, z)
+  - rectified linear unit
+  - leaky ReLU (min value below 0)
+  - max(0.01z, z)
+  - derivative: 0: z < 0, 1: z >= 0  
+
+Activation function
+- need to be non-linear function
+- if not, hidden layer will be useless, it's linear function -> not randomly anymore
