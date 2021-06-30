@@ -1,0 +1,5 @@
+- In 2D input, filter is 2D input as well 3x3 or 5x5
+- For 1D input, such as EKG heart rate signals... we use filter of 3 or 5
+- For 1D data, people usally use recurrent network other than convolutions
+- For 3D input such as CiTi scan, we use 3D filter as well 5x5x5 for example
+- Movie data also 3D data (w, h) and time
